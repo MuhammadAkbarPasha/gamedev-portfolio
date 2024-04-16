@@ -3,24 +3,21 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
-      <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
-      <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      An enthusiastic Game Engineer, driven by a passion for contributing to
+      proven success through diligence, meticulous attention to detail, and
+      outstanding organizational skills. Eager to embrace opportunities for
+      learning, personal growth, and advancement within the industry, and eager
+      to enhance your team's value.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a
+          class="download-link"
+          href="d/Muhammad Akbar Senior Game Engineer.pdf"
+          target="_blank"
+          ><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF</a
+        >
         <div style="clear:both"></div>
       </div>
-    </div>
-    <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
     </div>
 
     <div style="clear:both"></div>
@@ -28,27 +25,130 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <div>
+        <h3>Starpixel Studios</h3>
+        <h4>Senior Game Engineer</h4>
+        january 2023 - March 2024
 
-      <div>It's classified so I can't speak about it.</div>
+        <div>
+          Responsible for ideation and full Game development for a
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+          <a href="https://youtu.be/oQRAmTdI0W0" target="_blank"
+            >Survivor.io inspired game(WIP)</a
+          >
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+          <li>
+            Developed and maintained features like all gameplay mechanics such
+            as 2dShooting system, Choice system based on experience Gained, boss
+            andenemies mechanics.
+          </li>
+          <li>
+            Developed and maintained meta features such as a
+            6-equipment-basedsystem, skills-based evolve mechanics, gacha,
+            growth fund, equipment mergesystem, monthly subscription packs,
+            daily login rewards, daily tasks, weekly tasks, and in-app
+            purchases. Additionally, managed the game economy.
+          </li>
+          <li>Developing scalable and easy to reuse code and solutions.</li>
+          <li>
+            Using and developing with Unity Asset Store's best assets such as
+            Feel, Dotween and Odin Inspector.
+          </li>
+          <li>
+            Overlooking junior engineers working on the projects under me and
+            helping them with day to day tasks.
+          </li>
+        </div>
 
-      <div>It's classified so I can't speak about it.</div>
+        <div class="tech-stack">
+          Firearms, knives, grenades, Hummer vehicle, parachute,...
+        </div>
+      </div>
+      <div>
+        <h3>Game District</h3>
+        <h4>Game Engineer</h4>
+        September 2021 - May 2022
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+        <div>
+          Responsible for ideation and full Game development for a
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
+          <a href="https://youtu.be/oQRAmTdI0W0" target="_blank"
+            >Survivor.io inspired game(WIP)</a
+          >
 
-      <div>It's classified so I can't speak about it.</div>
+          <li>
+            Responsible for developing physics-based controllers, game
+            mechanics, UI systems, and integrating in-app purchases (IAPs).
+          </li>
+          <li>
+            Assisted other developers in adopting good programming practices and
+            techniques.
+          </li>
+          <li>
+            Contributed to game design and participated in brainstorming
+            sessions for ideas.
+          </li>
+          <li>
+            Developed games for the Play Store that achieved over 10 million
+            downloads :
+            <a
+              href="https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.gp.car.transport.truck.games"
+              target="_blank"
+            >
+              Car Simulation
+            </a>
+            and<a
+              href="https://play.google.com/store/apps/details?gl=US&hl=en-US&id=com.gp.pilot.simulator.airplanegames"
+              target="_blank"
+            >
+              Plane Simulation </a
+            >.
+          </li>
+        </div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+        <div class="tech-stack">
+          Firearms, knives, grenades, Hummer vehicle, parachute,...
+        </div>
+      </div>
+      <div>
+        <h3>Rift Technologies</h3>
+        <h4>Game Engineer</h4>
+        April 2019 - September 2022
 
+        <div>
+          Responsible for ideation and full Game development for a
+
+          <a href="https://youtu.be/oQRAmTdI0W0" target="_blank"
+            >Survivor.io inspired game(WIP)</a
+          >
+
+          <li>
+            Developed and maintained features like all gameplay mechanics such
+            as 2dShooting system, Choice system based on experience Gained, boss
+            andenemies mechanics.
+          </li>
+          <li>
+            Developed and maintained meta features such as a
+            6-equipment-basedsystem, skills-based evolve mechanics, gacha,
+            growth fund, equipment mergesystem, monthly subscription packs,
+            daily login rewards, daily tasks, weekly tasks, and in-app
+            purchases. Additionally, managed the game economy.
+          </li>
+          <li>Developing scalable and easy to reuse code and solutions.</li>
+          <li>
+            Using and developing with Unity Asset Store's best assets such as
+            Feel, Dotween and Odin Inspector.
+          </li>
+          <li>
+            Overlooking junior engineers working on the projects under me and
+            helping them with day to day tasks.
+          </li>
+        </div>
+
+        <div class="tech-stack">
+          Firearms, knives, grenades, Hummer vehicle, parachute,...
+        </div>
+      </div>
       <h2>Skills</h2>
 
       <div class="skill-set">
@@ -85,21 +185,25 @@
       <h3>That's it</h3>
       <div>Who needs another language when you speak American?</div>
 
-
       <h2>Besides...</h2>
       <div>
         <h3>I ❤️ Violence</h3>
         <div>I find it really soothing to just shoot at bad guys</div>
 
         <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <div>
+          I used to be thin but then I ingested 10 kilos of steroids and
+          proteins a day while doing 1000 push-ups.
+        </div>
 
         <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
+        <div>
+          I hope I can have a career here someday but I might have temper
+          issues.
+        </div>
 
         <h3>I 💚 Flowers</h3>
         <div>Especially the big ones, with the trunk and leaves.</div>
-
       </div>
     </div>
   </div>
@@ -146,7 +250,7 @@ h4 {
 }
 
 .download-link {
-  float:left;
+  float: left;
   margin-right: 50px;
 }
 
@@ -172,7 +276,7 @@ h4 {
   text-align: center;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 620px) {
   .paragraph {
     float: left;
   }
@@ -185,7 +289,7 @@ h4 {
 
   .skill-set {
     float: left;
-    padding-right: 60px; 
+    padding-right: 60px;
   }
 }
 </style>

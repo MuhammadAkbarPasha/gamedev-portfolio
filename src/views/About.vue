@@ -2,15 +2,27 @@
   <div style="margin-bottom: 80px;">
     <h1>Hello!</h1>
 
-    <div class="paragraph">
+   <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <b>Muhammad Akbar</b>, your go-to Senior Game Engineer with a knack for turning gaming dreams into pixelated realities.
+        I live and breathe game development, fueled by a passion for crafting immersive experiences. Professionally Over the course of 4 years, I have worked on multiple <router-link to="/game-projects">games</router-link>.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">Master of <b>Unity & C#</b>, wielding expertise in <b>gameplay mechanics</b>, <b>game backend</b> wizardry, and crafting epic <b>meta features</b> !!! 🚀🕹️🧰
+      <br><router-link to="/resume">Still curious about my skills ??</router-link></div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 20px;">I'm on the lookout for an opportunity to join an elite game studio renowned for its cutting-edge innovations and boasting a massive user base. 
+      I'm driven by the thrill of creating experiences that captivate and engage millions of players worldwide,
+       and I'm ready to bring my aexpertise to a team that shares my passion for pushing the boundaries of gaming excellence.
+       
+       
+       You can reach me <a href="mailto:muhammadakbar13995@gmail.com">@</a> or <router-link to="/contact">through here</router-link>.
+       
+       
+       </div>
+       
+
+
     </div>
 
     <div class="photo">
@@ -29,7 +41,7 @@
 }
 
 .photo {
-  margin-top: 50px;
+  margin-top: -30px;
   text-align: center;
 }
 
