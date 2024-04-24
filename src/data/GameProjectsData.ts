@@ -1,14 +1,20 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
+    new ProjectData("Stardust League",
+    "Stardust League",
+    "img/projects/StardustLeague.jpg",
+    "videos/Stardust League.mp4", // Assuming the video file is in the 'videos' folder
     `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+        <strong>Stardust League</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
+        <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <video class="project-video" controls autoplay loop>
+            <source src="videos/Stardust League.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
     <div class="paragraph center">
         <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
@@ -17,10 +23,10 @@ export default [
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+            <li>Some stuff</li>
+            <li>Some great stuff</li>
+            <li>More awesome stuff</li>
+            <li>And then some</li>
         </ul>
     </div>
 
@@ -28,126 +34,152 @@ export default [
         <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
         <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
     </div>
-    `, "#23bd69", true),
-    new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
-    <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
+    `,
+    "#23bd69",
+    true,true
+),new ProjectData("Turret Game",
+"Turret Game",
+"img/projects/project-1-icon.png",
+"videos/Turret.mp4", // Assuming the video file is in the 'videos' folder
+`
+<div class="paragraph">
+    <strong>Turret Game</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
+    <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+</div>
+<div class="paragraph center">
+    <video class="project-video" controls autoplay loop>
+        <source src="videos/Turret.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="paragraph center">
+    <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+</div>
 
-    <div class="paragraph">
-        Main features :
-        <ul>
+<div class="paragraph">
+    Main features :
+    <ul>
         <li>Some stuff</li>
         <li>Some great stuff</li>
         <li>More awesome stuff</li>
         <li>And then some</li>
-        </ul>
-    </div>
+    </ul>
+</div>
 
-    <div class="paragraph">
-    <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-    </div>
-    </div>
+<div class="paragraph center">
+    <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+    <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+</div>
+`,
+"#FA01DC",
+true
+),new ProjectData("Differences",
+"Differences",
+"img/projects/project-1-icon.png",
+"videos/Differences.mp4", // Assuming the video file is in the 'videos' folder
+`
+<div class="paragraph">
+    <strong>Differences</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
+    <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+</div>
+<div class="paragraph center">
+    <video class="project-video" controls autoplay loop>
+        <source src="videos/Differences.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="paragraph center">
+    <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+</div>
 
-    <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    </div>
-    `, "#5a78af"),
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
-    <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
+<div class="paragraph">
+    Main features :
+    <ul>
         <li>Some stuff</li>
         <li>Some great stuff</li>
         <li>More awesome stuff</li>
         <li>And then some</li>
-        </ul>
-    </div>
+    </ul>
+</div>
 
-    <div class="paragraph">
-        <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
+<div class="paragraph center">
+    <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+    <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+</div>
+`,
+"#F4052D",
+true
+),new ProjectData("Murasaki",
+"Murasaki",
+"img/projects/project-1-icon.png",
+"videos/Murasaki.mp4", // Assuming the video file is in the 'videos' folder
+`
+<div class="paragraph">
+    <strong>Murasaki</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
+    <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+</div>
+<div class="paragraph center">
+    <video class="project-video" controls autoplay loop>
+        <source src="videos/Murasaki.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="paragraph center">
+    <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+</div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-    </div>
-    `, "#383838"),
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
-    <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
+<div class="paragraph">
+    Main features :
+    <ul>
         <li>Some stuff</li>
         <li>Some great stuff</li>
         <li>More awesome stuff</li>
         <li>And then some</li>
-        </ul>
-    </div>
+    </ul>
+</div>
 
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        </div>
-    </div>
+<div class="paragraph center">
+    <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+    <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+</div>
+`,
+"#0198FA",
+true
+),new ProjectData("Murasaki",
+"Murasaki",
+"img/projects/project-1-icon.png",
+"videos/Murasaki.mp4", // Assuming the video file is in the 'videos' folder
+`
+<div class="paragraph">
+    <strong>Murasaki</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
+    <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+</div>
+<div class="paragraph center">
+    <video class="project-video" controls autoplay loop>
+        <source src="videos/Murasaki.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+<div class="paragraph center">
+    <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
+</div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-    </div>
-    `, "#e80fb7"),
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
-    <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
+<div class="paragraph">
+    Main features :
+    <ul>
         <li>Some stuff</li>
         <li>Some great stuff</li>
         <li>More awesome stuff</li>
         <li>And then some</li>
-        </ul>
-    </div>
+    </ul>
+</div>
 
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
+<div class="paragraph center">
+    <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+    <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+</div>
+`,
+"#0198FA",
+true
+)
 ];

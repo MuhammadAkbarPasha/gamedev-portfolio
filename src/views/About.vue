@@ -1,36 +1,48 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>Welcome to the World of Gaming Magic!</h1>
 
-   <div class="paragraph">
+    <div class="paragraph">
       <div>
-        I'm <b>Muhammad Akbar</b>, your go-to Senior Game Engineer with a knack for turning gaming dreams into pixelated realities.
-        I live and breathe game development, fueled by a passion for crafting immersive experiences. Professionally Over the course of 4 years, I have worked on multiple <router-link to="/game-projects">games</router-link>.
+        Hey there, fellow adventurer! I'm <b>Muhammad Akbar</b>, your Senior
+        Game Engineer extraordinaire. If you can dream it, I can pixelate it
+        into gaming reality. 🎮✨ Over the past 4 years, I've embarked on epic
+        quests, crafting numerous
+        <router-link to="/game-projects">games</router-link> that have
+        transported players to realms beyond imagination.
       </div>
 
-      <div style="margin-top: 20px;">Master of <b>Unity & C#</b>, wielding expertise in <b>gameplay mechanics</b>, <b>game backend</b> wizardry, and crafting epic <b>meta features</b> !!! 🚀🕹️🧰
-      <br><router-link to="/resume">Still curious about my skills ??</router-link></div>
+      <div style="margin-top: 20px;">
+        Behold, for I am the Master of <b>Unity & C#</b>, wielding powers in
+        <b>gameplay mechanics</b>, conjuring up <b>game backend</b> magic, and
+        crafting epic <b>meta features</b> that defy the laws of gaming physics!
+        🚀🕹️🧰 <br /><router-link to="/resume"
+          >Curious to witness my skills in action?</router-link
+        >
+        Venture forth, if you dare!
+      </div>
 
-      <div style="margin-top: 20px;">I'm on the lookout for an opportunity to join an elite game studio renowned for its cutting-edge innovations and boasting a massive user base. 
-      I'm driven by the thrill of creating experiences that captivate and engage millions of players worldwide,
-       and I'm ready to bring my aexpertise to a team that shares my passion for pushing the boundaries of gaming excellence.
-       
-       
-       You can reach me <a href="mailto:muhammadakbar13995@gmail.com">@</a> or <router-link to="/contact">through here</router-link>.
-       
-       
-       </div>
-       
-
-
+      <div style="margin-top: 20px;">
+        Seeking to align my destiny with an elite game studio renowned for its
+        groundbreaking innovations and boasting a legion of loyal players. I
+        hunger for the challenge of creating experiences that ensnare the hearts
+        of millions worldwide, and I stand ready to unleash my expertise upon a
+        team that shares my fervor for pushing the boundaries of gaming
+        excellence. Should you wish to summon me for this noble quest, dispatch
+        a raven to
+        <a href="mailto:muhammadakbar13995@gmail.com"
+          >muhammadakbar13995@gmail.com</a
+        >
+        or <router-link to="/contact">send a signal here</router-link>.
+        Together, let's forge legends!
+      </div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar.png" alt="Avatar of Muhammad" />
     </div>
 
     <div style="clear:both"></div>
-
   </div>
 </template>
 
@@ -45,7 +57,7 @@
   text-align: center;
 }
 
-@media only screen and (min-width: 620px){
+@media only screen and (min-width: 620px) {
   .paragraph {
     float: left;
   }
@@ -56,5 +68,4 @@
     padding-left: 80px;
   }
 }
-
 </style>

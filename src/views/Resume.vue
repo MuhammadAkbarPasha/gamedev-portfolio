@@ -60,8 +60,43 @@
           </li>
         </div>
 
+        <h4>Game Engineer</h4>
+        May 2022 - December 2022
+
+        <div>
+          Worked on Unreleased
+          <a
+            href="https://store.steampowered.com/app/2134680/Stardust_League/"
+            target="_blank"
+            >Steam Game</a
+          >
+
+          <li>
+            Developed and maintained features like all gameplay mechanics such
+            as 2dShooting system, Choice system based on experience Gained, boss
+            andenemies mechanics.
+          </li>
+          <li>
+            Developed and maintained meta features such as a
+            6-equipment-basedsystem, skills-based evolve mechanics, gacha,
+            growth fund, equipment mergesystem, monthly subscription packs,
+            daily login rewards, daily tasks, weekly tasks, and in-app
+            purchases. Additionally, managed the game economy.
+          </li>
+          <li>Developing scalable and easy to reuse code and solutions.</li>
+          <li>
+            Using and developing with Unity Asset Store's best assets such as
+            Feel, Dotween and Odin Inspector.
+          </li>
+          <li>
+            Overlooking junior engineers working on the projects under me and
+            helping them with day to day tasks.
+          </li>
+        </div>
+
         <div class="tech-stack">
-          Firearms, knives, grenades, Hummer vehicle, parachute,...
+          C#, Unity, Mirror networking, JavaScript, Git, Linear Algebra, REST
+          API, Azure Playfab
         </div>
       </div>
       <div>
@@ -70,11 +105,7 @@
         September 2021 - May 2022
 
         <div>
-          Responsible for ideation and full Game development for a
-
-          <a href="https://youtu.be/oQRAmTdI0W0" target="_blank"
-            >Survivor.io inspired game(WIP)</a
-          >
+          Worked on 2 <b>Mobile Games</b>
 
           <li>
             Responsible for developing physics-based controllers, game
@@ -107,7 +138,7 @@
         </div>
 
         <div class="tech-stack">
-          Firearms, knives, grenades, Hummer vehicle, parachute,...
+          Unity, C#, Git, Unity Timeline, Level Design, Physics Mechanics
         </div>
       </div>
       <div>
@@ -116,112 +147,138 @@
         April 2019 - September 2022
 
         <div>
-          Responsible for ideation and full Game development for a
-
-          <a href="https://youtu.be/oQRAmTdI0W0" target="_blank"
-            >Survivor.io inspired game(WIP)</a
-          >
+          Worked on 10+ <b>Client Games</b>
 
           <li>
-            Developed and maintained features like all gameplay mechanics such
-            as 2dShooting system, Choice system based on experience Gained, boss
-            andenemies mechanics.
+            Worked with tools such as Photon, Game Analytics, Firebase, Azure
+            Playfab, and Bolt.
           </li>
           <li>
-            Developed and maintained meta features such as a
-            6-equipment-basedsystem, skills-based evolve mechanics, gacha,
-            growth fund, equipment mergesystem, monthly subscription packs,
-            daily login rewards, daily tasks, weekly tasks, and in-app
-            purchases. Additionally, managed the game economy.
-          </li>
-          <li>Developing scalable and easy to reuse code and solutions.</li>
-          <li>
-            Using and developing with Unity Asset Store's best assets such as
-            Feel, Dotween and Odin Inspector.
+            Responsible for creating AI behavioral elements, character
+            controllers, and character animation.
           </li>
           <li>
-            Overlooking junior engineers working on the projects under me and
-            helping them with day to day tasks.
+            Conducted game optimization, build for iOS and Android platforms.
+          </li>
+          <li>
+            Collaborated closely with business developers, development teams and
+            executives.
+          </li>
+          <li>
+            Directly handled interactions with 5+ clients, devising ideas and
+            creating solutions to meet their requirements.
+          </li>
+          <li>
+            Utilized debugging techniques to identify issues with computer code
+            and resolve errors.
           </li>
         </div>
 
         <div class="tech-stack">
-          Firearms, knives, grenades, Hummer vehicle, parachute,...
+          C#, Unity, Photon networking, JavaScript, Git, Bolt, REST API, Azure
+          Playfab
         </div>
       </div>
+
       <h2>Skills</h2>
+      <div class="skillcontainer">
+        <div class="SkillsList">
+          <h3>Languages</h3>
+          <br />
+          <div class="skill">C#</div>
+          <div class="skill">JavaScript</div>
+          <div class="skill">C++</div>
+          <div class="skill">Python</div>
+          <div class="skill">JavaScript</div>
+        </div>
 
-      <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
-      </div>
+        <div class="SkillsList">
+          <h3>GameDev</h3>
+          <br />
 
-      <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+          <div class="skill">Unity</div>
+          <div class="skill">Construct 3</div>
+          <div class="skill">Photon</div>
+          <div class="skill">Mirror</div>
+          <div class="skill">Odin Inspector</div>
+          <div class="skill">FEEL</div>
+          <div class="skill">DOTween</div>
+          <div class="skill">CloudScripting</div>
+        </div>
+        <div class="SkillsList">
+          <h3>Specialities</h3>
+          <br />
+
+          <div class="skill">Gameplay</div>
+          <div class="skill">AI</div>
+          <div class="skill">Animations</div>
+          <div class="skill">Meta Features</div>
+          <div class="skill">CloudScripting</div>
+          <div class="skill">APIs Integration</div>
+          <div class="skill">IAPs</div>
+        </div>
+
+        <div class="SkillsList">
+          <h3>Other Tools</h3>
+          <div class="skill">Git</div>
+          <div class="skill">Postman</div>
+          <div class="skill">Android Studio</div>
+          <div class="skill">Playfab</div>
+          <div class="skill">Firebase</div>
+          <div class="skill">GameAnalytics</div>
+        </div>
       </div>
       <div style="clear:both" />
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>COMSATS - 2019</h3>
+      <h4>Bachelor of Computer Science</h4>
+      Got 3rd position for my Multiplayer Game : Final Year Project
 
       <h2>Languages</h2>
 
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
+      <h3>English</h3>
+      <div>Professional speaking and writing</div>
 
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-
-      <h2>Besides...</h2>
-      <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
-
-        <h3>I 🧡 Sports</h3>
-        <div>
-          I used to be thin but then I ingested 10 kilos of steroids and
-          proteins a day while doing 1000 push-ups.
-        </div>
-
-        <h3>I 💛 Politics</h3>
-        <div>
-          I hope I can have a career here someday but I might have temper
-          issues.
-        </div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-      </div>
+      <h3>Urdu</h3>
+      <div>Native language</div>
     </div>
   </div>
 </template>
 
-<script lang="ts">
-import Vue from "vue";
-import SkillRate from "@/components/SkillRate.vue";
-
-export default Vue.extend({
-  name: "Resume",
-  components: {
-    SkillRate,
-  },
-});
-</script>
-
 <style scoped>
+.skillcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SkillsList {
+  flex: 0 1 100%; /* Adjust width of each column as needed */
+  margin: 0px 50px 50px 0px;
+}
+
+.SkillsList h3 {
+  margin-top: 0;
+  margin-right: 100px;
+}
+
+.skill {
+  margin-bottom: 5px;
+}
+
+.SkillsList {
+  width: 850px;
+}
+
+.skill {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  border: 1px solid #ffffff;
+  color: white;
+}
+
 h2 {
   font-weight: 100;
   font-size: 2em;
@@ -244,7 +301,6 @@ h4 {
   padding-top: 15px;
   font-style: italic;
 }
-
 .paragraph {
   max-width: 700px;
 }
