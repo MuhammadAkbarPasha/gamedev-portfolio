@@ -39,7 +39,7 @@ export default [
     true,true
 ),new ProjectData("Turret Game",
 "Turret Game",
-"img/projects/project-1-icon.png",
+"img/projects/Turret.jpg",
 "videos/Turret.mp4", // Assuming the video file is in the 'videos' folder
 `
 <div class="paragraph">
@@ -75,7 +75,7 @@ export default [
 true
 ),new ProjectData("Differences",
 "Differences",
-"img/projects/project-1-icon.png",
+"img/projects/Differences.png",
 "videos/Differences.mp4", // Assuming the video file is in the 'videos' folder
 `
 <div class="paragraph">
@@ -109,13 +109,13 @@ true
 `,
 "#F4052D",
 true
-),new ProjectData("Murasaki",
-"Murasaki",
-"img/projects/project-1-icon.png",
+),new ProjectData("Murasaki 7",
+"Murasaki 7",
+"img/projects/Murasaki.png",
 "videos/Murasaki.mp4", // Assuming the video file is in the 'videos' folder
 `
 <div class="paragraph">
-    <strong>Murasaki</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
+    <strong>Murasaki 7</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
 </div>
 <div class="paragraph center">
@@ -145,18 +145,18 @@ true
 `,
 "#0198FA",
 true
-),new ProjectData("Murasaki",
-"Murasaki",
-"img/projects/project-1-icon.png",
-"videos/Murasaki.mp4", // Assuming the video file is in the 'videos' folder
+),new ProjectData("Pilot Flight Simulator",
+"Pilot Flight Simulator",
+"img/projects/PlaneGame.png",
+"videos/Plane Game.mp4", // Assuming the video file is in the 'videos' folder
 `
 <div class="paragraph">
-    <strong>Murasaki</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
+    <strong>Pilot Flight Simulator</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
 </div>
 <div class="paragraph center">
     <video class="project-video" controls autoplay loop>
-        <source src="videos/Murasaki.mp4" type="video/mp4">
+        <source src="videos/Plane Game.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
@@ -180,6 +180,7 @@ true
 </div>
 `,
 "#0198FA",
+true   ,
 true
 )
 ];
