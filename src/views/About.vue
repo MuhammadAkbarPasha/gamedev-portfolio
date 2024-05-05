@@ -8,7 +8,7 @@
         Game Engineer extraordinaire. If you can dream it, I can pixelate it
         into gaming reality. 🎮✨ Over the past 4 years, I've embarked on epic
         quests, crafting numerous
-        <router-link to="/game-projects">games</router-link> that have
+        <router-link to="/game-projects">GAMESS</router-link> that have
         transported players to realms beyond imagination.
       </div>
 
