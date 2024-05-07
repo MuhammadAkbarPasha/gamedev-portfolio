@@ -4,7 +4,7 @@
 
     <div class="paragraph">
       <div>
-        Hey there, fellow adventurer! I'm <b>Muhammad Akbar</b>, your Senior
+        Hey there, fellow adventurer! I'm <b>Akbar</b>, your Senior
         Game Engineer extraordinaire. If you can dream it, I can pixelate it
         into gaming reality. 🎮✨ Over the past 4 years, I've embarked on epic
         quests, crafting numerous
