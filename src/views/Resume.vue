@@ -26,7 +26,7 @@
       <h2>Work experience</h2>
 
       <div>
-        <h3>Starpixel Studios</h3>
+        <h3><b>Starpixel Studios</b></h3>
         <h4>Senior Game Engineer</h4>
         january 2023 - March 2024
 
@@ -95,12 +95,13 @@
         </div>
 
         <div class="tech-stack">
-          C#, Unity, Mirror networking, JavaScript, Git, Linear Algebra, REST
-          API, Azure Playfab
+     <br>
+          <b>   C#, Unity, Mirror networking, JavaScript, Git, Linear Algebra, REST
+          API, Azure Playfab </b>
         </div>
       </div>
       <div>
-        <h3>Game District</h3>
+        <h3><b>Game District</b></h3>
         <h4>Game Engineer</h4>
         September 2021 - May 2022
 
@@ -108,8 +109,8 @@
           Worked on 2 <b>Mobile Games</b>
 
           <li>
-            Responsible for developing physics-based controllers, game
-            mechanics, UI systems, and integrating in-app purchases (IAPs).
+            Responsible for developing<b> physics-based controllers, game
+            mechanics, UI systems, and integrating in-app purchases </b> (IAPs). 
           </li>
           <li>
             Assisted other developers in adopting good programming practices and
@@ -138,11 +139,13 @@
         </div>
 
         <div class="tech-stack">
-          Unity, C#, Git, Unity Timeline, Level Design, Physics Mechanics
-        </div>
+       <br>
+       
+       <b>Unity, C#, Git, Unity Timeline, Level Design, Physics Mechanics
+        </b></div>
       </div>
       <div>
-        <h3>Rift Technologies</h3>
+        <h3><b>Rift Technologies</b></h3>
         <h4>Game Engineer</h4>
         April 2019 - September 2022
 
@@ -150,12 +153,12 @@
           Worked on 10+ <b>Client Games</b>
 
           <li>
-            Worked with tools such as Photon, Game Analytics, Firebase, Azure
-            Playfab, and Bolt.
+            Worked with tools such as <b>Photon, Game Analytics, Firebase, Azure
+            Playfab, and Bolt. </b>
           </li>
           <li>
-            Responsible for creating AI behavioral elements, character
-            controllers, and character animation.
+            Responsible for creating <b>AI behavioral elements, character
+            controllers, and character animation. </b>
           </li>
           <li>
             Conducted game optimization, build for iOS and Android platforms.
@@ -175,8 +178,10 @@
         </div>
 
         <div class="tech-stack">
-          C#, Unity, Photon networking, JavaScript, Git, Bolt, REST API, Azure
-          Playfab
+
+          <br>
+        <b>  C#, Unity, Photon networking, JavaScript, Git, Bolt, REST API, Azure
+          Playfab </b>
         </div>
       </div>
 
