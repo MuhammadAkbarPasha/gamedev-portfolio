@@ -3,6 +3,7 @@
     
     <h2>Let's get in touch</h2>
 
+    
     <div>Feel free to contact me about any opportunity, or just to chat about cooking, kittens or anything else.</div>
 
     <ul>
