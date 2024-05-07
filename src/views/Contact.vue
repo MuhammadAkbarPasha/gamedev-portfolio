@@ -30,6 +30,7 @@
         <i class="fa fa-tumblr fa-lg fa-fw"></i>
         <a href="https://myblog.tumblr.com" target="_blank">myblog.tumblr.com</a>
       </li>
+      
       <li>
         <i class="fa fa-steam fa-lg fa-fw"></i>
         <a href="https://steamcommunity.com/id/me" target="_blank">steam.com/me</a>
