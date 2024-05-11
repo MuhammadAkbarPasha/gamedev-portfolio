@@ -1,8 +1,7 @@
-import Vue from 'vue'
-import VueRouter, { RouteConfig } from 'vue-router'
+import Vue from 'vue';
+import VueRouter, { RouteConfig } from 'vue-router';
 
-
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
 const routes: Array<RouteConfig> = [
   {
@@ -34,10 +33,12 @@ const routes: Array<RouteConfig> = [
     path: '*',
     redirect: '/404'
   }
-]
+];
 
 const router = new VueRouter({
+  mode: 'history', // Enable history mode
+  base: 'https://akbardevs.me', // Set base URL
   routes
-})
+});
 
-export default router
+export default router;
