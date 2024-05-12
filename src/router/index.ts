@@ -37,7 +37,7 @@ const routes: Array<RouteConfig> = [
 
 const router = new VueRouter({
   mode: 'history', // Enable history mode
-  base: 'https://akbardevs.me', // Set base URL
+  base: '', // Set base URL
   routes
 });
 
