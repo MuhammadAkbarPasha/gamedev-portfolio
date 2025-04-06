@@ -204,6 +204,8 @@
           <div class="skill">Unity</div>
           <div class="skill">Construct 3</div>
           <div class="skill">Photon</div>
+          <div class="skill">Quantum</div>
+          <div class="skill">Fusion</div>
           <div class="skill">Mirror</div>
           <div class="skill">Odin Inspector</div>
           <div class="skill">FEEL</div>
@@ -216,10 +218,12 @@
 
           <div class="skill">Gameplay</div>
           <div class="skill">AI</div>
+          <div class="skill">Multiplayer</div>
           <div class="skill">Animations</div>
           <div class="skill">Meta Features</div>
           <div class="skill">CloudScripting</div>
           <div class="skill">APIs Integration</div>
+          <div class="skill">Docker & Virtualization</div>
           <div class="skill">IAPs</div>
         </div>
 
@@ -227,6 +231,8 @@
           <h3>Other Tools</h3>
           <div class="skill">Git</div>
           <div class="skill">Postman</div>
+         
+          
           <div class="skill">Android Studio</div>
           <div class="skill">Playfab</div>
           <div class="skill">Firebase</div>

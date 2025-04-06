@@ -1,7 +1,45 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("Stardust League",
+    new ProjectData("AI Layer MOBA",
+    "AI Layer MOBA",
+    "img/projects/AILayerMoba.jpg",
+    "videos/Stardust League.mp4", // Assuming the video file is in the 'videos' folder
+    `
+    <div class="paragraph">
+        <strong>AI Layer MOBA</strong> is a MOBA Cyberpunk styled game with AI creeps, Turrets and base. The gameplay consists of 2v2 with creeps spawning after every few minutes
+        and the goal is to destroy other team's turret and base.  </div>
+    <div class="paragraph center">
+        <video class="project-video" controls autoplay loop>
+            <source src="videos/Moba Quantum.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="paragraph center">
+       <a href=" https://www.youtube.com/watch?v=B_frwQteTls&t=546s&ab_channel=NoXModel001" target="_blank">Watch Gameplay on Youtube</a>
+    </div>
+
+    <div class="paragraph">
+   I have worked on this game as <b>Team Lead</b> for last 6 months. The game is made in Quantum.  
+       <br> Features I contributed in :
+        <ul>
+            <li>Gameplay, Abilities, AI</li>
+            <li>Teaming, Game Logic, Mechanics and UI</li>
+            </ul>
+    </div>
+
+   <!-- <div class="paragraph center">
+        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+    </div>
+
+    -->
+    `,
+    "#23bd69",
+    true,true
+),
+
+new ProjectData("Stardust League",
     "Stardust League",
     "img/projects/StardustLeague.jpg",
     "videos/Stardust League.mp4", // Assuming the video file is in the 'videos' folder
@@ -39,7 +77,50 @@ export default [
     `,
     "#23bd69",
     true,true
-),new ProjectData("Turret Game",
+)
+,
+
+
+new ProjectData("Gnome Wars",
+    "Gnome Wars",
+    "img/projects/GnomeWars.png",
+    "videos/Stardust League.mp4", // Assuming the video file is in the 'videos' folder
+    `
+    <div class="paragraph">
+        <strong>Gnome Wars</strong>Gnome Wars is a fast-paced multiplayer FPS built in Unity and powered by the Mirror networking engine. 
+    </div>
+    <div class="paragraph center">
+        <video class="project-video" controls autoplay loop>
+            <source src="videos/GnomeWars.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="paragraph center">
+        <a href="https://store.steampowered.com/app/2134680/Stardust_League/" target="_blank"><img src="img/projects/steambadge.png" width="250" height="90" alt="Play Store badge" /></a>
+    </div>
+
+    <div class="paragraph">
+  Designed for WebGL, the game offers seamless browser-based play with smooth integration of CrazyGames for ad support. 
+  Players can log in to create or join private rooms, battle it out in a gnome-themed world, and access a dynamic in-game economy. 
+  The game includes a fully developed shop system, allowing players to purchase unique skins and weapons, with multiple choices tailored to different playstyles.
+
+Built on a Node.js backend, Gnome Wars ensures a stable multiplayer experience with custom matchmaking. With a blend of lighthearted characters and intense combat, players take control of gnomes and engage in thrilling battles, offering a fresh and quirky take on FPS gameplay. Whether customizing your gnome with skins or unlocking new weapons, Gnome Wars delivers a unique and fun experience for every player.
+
+
+    </div>
+
+   <!-- <div class="paragraph center">
+        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+    </div>
+
+    -->
+    `,
+    "#23bd69",
+    true,true
+)
+,
+new ProjectData("Turret Game",
 "Turret Game",
 "img/projects/Turret.jpg",
 "videos/Turret.mp4", // Assuming the video file is in the 'videos' folder
