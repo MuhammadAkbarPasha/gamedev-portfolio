@@ -9,7 +9,7 @@
     <ul>
       <li>
         <i class="fa fa-envelope-o fa-lg fa-fw"></i>
-        <a href="mailto:muhammadakbar13995@gmail.com" target="_blank">muhammadakbar@gmail.com</a>
+        <a href="mailto:muhammadakbar13995@gmail.com" target="_blank">muhammadakbar13995@gmail.com</a>
       </li>
       <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>

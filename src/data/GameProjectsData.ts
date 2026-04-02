@@ -2,7 +2,7 @@ import ProjectData from '@/data/ProjectData.ts'
 
 export default [
 
-
+//#region Turret
     new ProjectData("Turret Game",
         "Turret Game",
         "img/projects/Turret.jpg",
@@ -43,7 +43,11 @@ export default [
     `,
         "#FA01DC",
         true
-    ), new ProjectData("Differences",
+    ),
+    
+    //#endregion
+//#region Differences
+new ProjectData("Differences",
         "Differences",
         "img/projects/Differences.png",
         "videos/Differences.mp4", // Assuming the video file is in the 'videos' folder
@@ -76,7 +80,10 @@ export default [
     `,
         "#F4052D",
         true
-    ), new ProjectData("Murasaki 7",
+    ), 
+    //#endregion
+//#region Murasaki 7
+    new ProjectData("Murasaki 7",
         "Murasaki 7",
         "img/projects/Murasaki.png",
         "videos/Murasaki.mp4", // Assuming the video file is in the 'videos' folder
@@ -112,6 +119,8 @@ export default [
         "#0198FA",
         true
     ),
+    //#endregion
+//#region AI Layer MOBA
     new ProjectData("AI Layer MOBA",
         "AI Layer MOBA",
         "img/projects/AILayerMoba.jpg",
@@ -150,8 +159,8 @@ export default [
         true, true
     ),
 
-
-
+//#endregion
+//#region Unreal Game
     new ProjectData("FPS Game Using Unreal",
         "FPS Game Using Unreal",
         "img/projects/wagmi.png",
@@ -165,7 +174,7 @@ export default [
 </div>
     <div class="paragraph center">
        <div style="text-align: center;">
-    <iframe class="project-video-center" width="560" height="315"
+    <iframe class="project-video-center" width="760" height="400"
         src="https://www.youtube.com/embed/CD9bGARsrBg?autoplay=1&loop=1&playlist=CD9bGARsrBg"
         title="YouTube video player" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -220,8 +229,68 @@ export default [
         "#23bd69",
         true, true
     ),
+//#endregion
+//#region Moon Karts
 
-    new ProjectData("Stardust League",
+ new ProjectData("Moon Karts",
+        "Moon Karts - Quantum",
+        "img/projects/MoonKarts.png",
+        "videos/Stardust League.mp4", // Assuming the video file is in the 'videos' folder
+        `
+    <div class="paragraph">
+    <strong>Overview:</strong>
+    <p>
+Multiplayer Karts game using Quantum. Important to note this was before quantum launched their own karts sample game. And this has different mechanics from that one. Crypto based game made and maintained for Arcade colony.
+    </p>
+</div>
+    <div class="paragraph center">
+       <div style="text-align: center;">
+   <video class="project-video" controls autoplay loop>
+        <source src="videos/Moon Karts.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
+    </div>
+   
+
+ 
+
+<div class="paragraph">
+    <strong>Key Features:</strong>
+    <ul>
+        <li>
+            <strong>Backend and Database</strong>
+            <ul>
+                <li>Wrote majority of the backend APIs </li>
+                <li>Interaction with the Crypto side of things using validator/li>
+                <li>Backend was miserable and had very little security before I joined/li>
+                <li>DB Schema /li>
+
+            </ul>
+        </li>
+        <li>
+            <strong>AI and other features</strong>
+            <ul>
+                <li>Even though I wasnt the one who built the game from ground up but had full control of the project and lead the team maintaining it</li>
+                <li>Added AI Users and karts to the gameplay. Full AI users addition was done by me to fake userbase</li>
+                <li>Other gear features were also done by me</li>
+
+
+            </ul>
+        </li>
+       
+    </ul>
+</div>
+
+    `,
+        "#23bd69",
+        true, true
+    ),
+//#endregion
+
+//#region Stardust League
+new ProjectData("Stardust League",
         "Stardust League",
         "img/projects/StardustLeague.jpg",
         "videos/Stardust League.mp4", // Assuming the video file is in the 'videos' folder
@@ -259,50 +328,130 @@ export default [
     `,
         "#23bd69",
         true, true
-    )
+    ),
+//#endregion
 
+//#region Avegotchi
+    new ProjectData("LLMvsLLM",
+        "LLM vs LLM",
+        "img/projects/AIRocket.png",
+        "videos/Stardust League.mp4", // Assuming the video file is in the 'videos' folder
+        `
+    <div class="paragraph">
+    <strong>Overview:</strong>
+    <p>
+      A simple AI vs AI game where both controllers share map situation with their respective LLMs, take instructions and then execute.
+    </p>
+</div>
+    <div class="paragraph center">
+       <div style="text-align: center;">
+    <video class="project-video" controls autoplay loop>
+        <source src="videos/AIRocketFight.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
 
-    /*
-        new ProjectData("Gnome Wars",
-            "Gnome Wars",
-            "img/projects/GnomeWars.png",
-            "videos/Stardust League.mp4", // Assuming the video file is in the 'videos' folder
-            `
-        <div class="paragraph">
-            <strong>Gnome Wars</strong>Gnome Wars is a fast-paced multiplayer FPS built in Unity and powered by the Mirror networking engine. 
-        </div>
-        <div class="paragraph center">
-            <video class="project-video" controls autoplay loop>
-                <source src="videos/GnomeWars.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-            </video>
-        </div>
-        <div class="paragraph center">
-            <a href="https://store.steampowered.com/app/2134680/Stardust_League/" target="_blank"><img src="img/projects/steambadge.png" width="250" height="90" alt="Play Store badge" /></a>
-        </div>
-    
-        <div class="paragraph">
-      Designed for WebGL, the game offers seamless browser-based play with smooth integration of CrazyGames for ad support. 
-      Players can log in to create or join private rooms, battle it out in a gnome-themed world, and access a dynamic in-game economy. 
-      The game includes a fully developed shop system, allowing players to purchase unique skins and weapons, with multiple choices tailored to different playstyles.
-    
-    Built on a Node.js backend, Gnome Wars ensures a stable multiplayer experience with custom matchmaking. With a blend of lighthearted characters and intense combat, players take control of gnomes and engage in thrilling battles, offering a fresh and quirky take on FPS gameplay. Whether customizing your gnome with skins or unlocking new weapons, Gnome Wars delivers a unique and fun experience for every player.
-    
-    
-        </div>
-    
-       <!-- <div class="paragraph center">
-            <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-            <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        </div>
-    
-        -->
-        `,
-            "#23bd69",
-            true, true
-        )*/
+    </div>
+   
 
-    , new ProjectData("Pilot Flight Simulator",
+ 
+
+<div class="paragraph">
+    <strong>Key Features:</strong>
+    <ul>
+        <li>
+            <strong>Web Socket + Client</strong>
+            <ul>
+                <li>Implementation of the websocket to call LLM APIs </li>
+                <li>Serialization of the states and implementation of the websocket client</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Movement and feedback</strong>
+            <ul>
+                <li>Whole feedback of bullets using Feel pack and movement </li>
+                <li>Game logic implementation</li>
+
+            </ul>
+        </li>
+        <li>
+            <strong>Gameloop</strong>
+            <ul>
+                <li>Falling and respawn</li>
+                <li>Game continuation </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+    `,
+        "#23bd69",
+        true, true
+    ),
+//#endregion
+
+//#region Avegotchi
+    new ProjectData("Avegotchi",
+        "Avegotchi Fall Guys - Quantum",
+        "img/projects/Avegotchi.png",
+        "videos/Stardust League.mp4", // Assuming the video file is in the 'videos' folder
+        `
+    <div class="paragraph">
+    <strong>Overview:</strong>
+    <p>
+       Inspired from Fall Guys and built using Photon - Quantum in unity. Quantum is based on ECS and its deterministic. The whole logic of working is very different from conventional Unity. Quantum uses tick and the whole logic is divided into simulation and view. Where quantum controls simulation. 
+    </p>
+</div>
+    <div class="paragraph center">
+       <div style="text-align: center;">
+    <iframe class="project-video-center" width="760" height="400"
+        src="https://www.youtube.com/embed/TkMcvg1NYdA?si=KimymWw9A6WDSHSL&amp;start=20"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+</div>
+
+    </div>
+   
+
+ 
+
+<div class="paragraph">
+    <strong>Key Features:</strong>
+    <ul>
+        <li>
+            <strong>Movement</strong>
+            <ul>
+                <li>Player movement with respect to all obstacles and physics</li>
+                <li>Player character controller</li>
+            </ul>
+        </li>
+        <li>
+            <strong>Obstacles And Hazards</strong>
+            <ul>
+                <li>Logic and physics</li>
+                <li>Transforms</li>
+
+            </ul>
+        </li>
+        <li>
+            <strong>Gameloop</strong>
+            <ul>
+                <li>Falling and respawn</li>
+                <li>Game continuation </li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+    `,
+        "#23bd69",
+        true, true
+    ),
+//#endregion
+//#region Flight Sim
+     new ProjectData("Pilot Flight Simulator",
         "Pilot Flight Simulator",
         "img/projects/PlaneGame.png",
         "videos/Plane Game.mp4", // Assuming the video file is in the 'videos' folder
@@ -336,5 +485,7 @@ Features I added :
         "#0198FA",
         true,
         true
-    )
+    ),
+    //#endregion
+
 ];
